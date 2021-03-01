@@ -3,21 +3,10 @@
 
 ## Project Name
 
-Portfolio 
+Portfolio Scroll Down
 
 ## Project Description
 All about me.
-
-## Wireframes
-
-
-![wireframes](https://github.com/leeuwork/as/blob/main/public/as.png?raw=true)
- 
-## Flow-Chart
-
-![flowchart](https://github.com/leeuwork/as/blob/main/public/flow-chart.png?raw=true)
-
-
 
 ## Available Scripts
 
