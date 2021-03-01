@@ -1,0 +1,17 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1200px;
+}
+
+.contact-container img {
+    border-radius: 30%;
+    width: 230px;
+    margin-top: 50px;
+}
+
+.link-img {
+    width: 30px !important;
+}

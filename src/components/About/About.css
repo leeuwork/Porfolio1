@@ -1,0 +1,24 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 1500px;
+}
+
+.about-me-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding: 30px;
+}
+
+.about-me-left {
+    margin: 100px 0px 0px 0px;
+    width: 30%;
+}
+
+.about-me-right p {
+    line-height: 2.5;
+    margin: 20px;
+    font-size: 24px;
+}

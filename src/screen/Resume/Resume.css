@@ -1,0 +1,29 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-iframe {
+    width: 800px;
+    height: 1000px;
+    margin-bottom: 120px;
+}
+
+.resume-download a {
+    text-decoration: none;
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-download a:hover {
+    color:chocolate
+}
+
+.resume-download {
+    margin-bottom: 30px;
+    
+}

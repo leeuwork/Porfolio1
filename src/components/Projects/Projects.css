@@ -1,0 +1,74 @@
+.project-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-container {
+    border: 1px solid rgb(8, 8, 8);
+    width: 800px;
+    height: 630px;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-container img {
+    width: 800px !important;
+    height: 350px !important;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.project-container h2 {
+    margin: 10px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.project-container p {
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#project-skills {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#project-skills h5 {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+#project-skills h5:hover {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+#project-links {
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#project-links a {
+    text-decoration: none;
+    color: black;
+}
+
+#project-links a:hover {
+    border-bottom: 1px solid black;
+}
