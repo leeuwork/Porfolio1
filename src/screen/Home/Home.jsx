@@ -14,16 +14,18 @@ function Home() {
     const FadeUp = batch(Fade(), Move(), Sticky(), ZoomIn());
     // const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
     const contactCall = useRef(null)
-    const handleClick = () => contactCall.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    
+    const top = useRef()
+    const handleContact = () => contactCall.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    const handleButton = () => top.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+
 
 
     return (
-        <div>
+        <div className="fontSize">
             <PageProgress color={'orange'} height={5} />
-            <div className="nav-bar">
+            <div ref={top}className="nav-bar">
                 <Link to="/resume"> <h3>Resume</h3></Link>
-                <a onClick={handleClick}><h3>Contact</h3></a>
+                <a onClick={handleContact}><h3>Contact</h3></a>
             </div>
             <ScrollContainer>
                 <ScrollPage page={0}>
@@ -42,7 +44,7 @@ function Home() {
                         <span style={{ fontSize: "3em" }}>i am aslan shaken</span>
                     </Animator>
                 </ScrollPage>
-                
+
                 <About />
                 <Skills />
                 <Projects />
@@ -67,7 +69,10 @@ function Home() {
 
             </ScrollContainer >
 
-            <Contact contactCall={contactCall} />
+            <Contact
+                contactCall={contactCall}
+                handleButton={handleButton}
+            />
         </div>
     )
 }

@@ -3,11 +3,6 @@
     justify-content: space-around;
 }
 
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
 
 .project-container {
     border: 1px solid rgb(8, 8, 8);
@@ -72,3 +67,144 @@
 #project-links a:hover {
     border-bottom: 1px solid black;
 }
+
+
+
+/* MEDIA */
+@media only screen and (max-width: 1635px) {
+    
+    .project-container {
+        width: 600px;
+        height: 600px;
+    }
+    
+    .project-container img {
+        width: 600px !important;
+        height: 350px !important;
+    }
+}
+
+@media only screen and (max-width: 1635px) {
+    
+    .project-container {
+        width: 400px;
+        height: 520px;
+    }
+    
+    .project-container img {
+        width: 400px !important;
+        height: 200px !important;
+    }
+}
+
+
+@media only screen and (max-width: 852px) {
+    
+    .project-container {
+        width: 300px;
+        height: 540px;
+    }
+    
+    .project-container img {
+        width: 300px !important;
+        height: 200px !important;
+    }
+}
+
+@media only screen and (max-width: 647px) {
+    .project-main {
+        flex-direction: column;
+    }
+    .project-container {
+        width: 300px;
+        height: 360px;
+    }
+    
+    .project-container img {
+        width: 300px !important;
+        height: 150px !important;
+    }
+    .project-container h2 {
+        margin: 2px;
+        font-weight: 200;
+        text-align: center;
+    }
+    
+    .project-container p {
+        margin: 2px;
+        text-align: center;
+        font-size: 15px;
+    }
+    #project-skills {
+        margin: 0px;
+    }
+    
+    #project-skills h5 {
+        padding: 3px;
+    }
+    
+    
+}
+
+
+
+@media only screen and (max-width: 378px) {
+    .project-main {
+        flex-direction: column;
+    }
+    .project-container {
+        border: 1px solid rgb(8, 8, 8);
+        width: 300px;
+        height: 300px;
+        margin: 6px;
+    }
+    
+    .project-container img {
+        width: 300px !important;
+        height: 130px !important;
+        margin: 0px 0px 0px 0px;
+        border-bottom: 1px solid rgb(8, 8, 8);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    .project-container h2 {
+        margin: 2px;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    .project-container p {
+        margin: 2px;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    #project-skills {
+        margin: 0px;
+    }
+    
+    #project-skills h5 {
+        padding: 3px;
+    }
+    
+    #project-skills h5:hover {
+        background-color: black;
+        color: blanchedalmond;
+    }
+    
+    #project-links {
+        margin: 0px;
+    }
+    
+    #project-links a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    #project-links a:hover {
+        border-bottom: 1px solid black;
+    }
+    
+}
+

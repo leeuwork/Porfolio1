@@ -13,7 +13,9 @@ function About() {
 
             <ScrollPage page={3}>
                 <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                    <span style={{ fontSize: "3em" }}>software engineer | full stack developer</span>
+                    <span style={{ fontSize: "3em" }} id="software-text">
+                        software engineer | full stack developer
+                        </span>
                 </Animator>
             </ScrollPage>
 

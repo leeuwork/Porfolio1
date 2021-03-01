@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1200px;
+    height: 1000px;
 }
 
 .contact-container img {
@@ -14,4 +14,34 @@
 
 .link-img {
     width: 30px !important;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: -200px 90px 0px 0px;
+}
+
+.button-container img {
+    width: 50px;
+    cursor: pointer;
+}
+
+.button-container img:hover {
+    zoom: 1.1;
+}
+
+
+@media only screen and (max-width: 378px) {
+    .button-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin: 0px 20px 0px 0px;
+    }
+    .contact-container {
+        height: 500px;
+    }
+    
 }
