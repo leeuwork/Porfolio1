@@ -7,7 +7,7 @@ function About() {
         <div>
             <ScrollPage page={2}>
                 <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-                    <span style={{ fontSize: "3em" }}>a little bit of me</span>
+                    <span style={{ fontSize: "3em" }}>a little bit about  me</span>
                 </Animator>
             </ScrollPage>
 

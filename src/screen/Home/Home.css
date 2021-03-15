@@ -15,16 +15,33 @@
     text-align: center;
 }
 
+
+@keyframes shake {
+    50% {
+        transform: translate(0px);
+    }
+
+    50% {
+        transform: translate(0px, 90px);
+        
+    }
+
+
+}
+
 .whoami-text img {
-    height: 70px;
+    height: 75px;
+    animation: shake 2.6s;
+    animation-iteration-count:infinite;
 }
 
 @media only screen and (max-width: 378px) {
-    span{
-        font-size: 2em !important ;
+    span {
+        font-size: 2em !important;
     }
+
     .nav-bar a {
         margin-top: -5px;
     }
-    
+
 }

@@ -2,6 +2,7 @@ import './Projects.css'
 import Go4petsImg from './Img/go4pets.png'
 import CycleShopImg from './Img/cycleshop.png'
 import Go4profitImg from './Img/go4profit.png'
+import Kz from './Img/kz-immigrant.png'
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 
 function Projects() {
@@ -80,6 +81,7 @@ function Projects() {
                                 <a href="http://go4profit.us/" target="_blank">Website</a>
                             </div>
                         </div>
+
                         <div className="project-container">
                             <img
                                 src={Go4petsImg}
@@ -96,6 +98,35 @@ function Projects() {
                                 <a href="https://gifted-swanson-7c7f5a.netlify.app/" target="_blank">Website</a>
                             </div>
                         </div>
+
+                    </div>
+                </Animator>
+            </ScrollPage>
+
+            <ScrollPage page={13}>
+                <Animator animation={batch(Fade(), Sticky())}>
+                    <div className="project-main">
+
+                        <div className="project-container">
+                            <img
+                                src={Kz}
+                            />
+                            <h2>KZ Immigrant Guide</h2>
+                            <p> It is a small kazakh community app based in the USA. It helps people from all
+                            over the world get to know each other and help each other by providing valid
+                            and newest resources in the USA area. </p>
+                            <div id="project-skills">
+                                <h5>React</h5>
+                                <h5>CRUD</h5>
+                                <h5>PostgreSQL</h5>
+                                <h5>Ruby on Rails</h5>
+                            </div>
+                            <div id="project-links">
+                                <a href="https://github.com/leeuwork/KZImmigrantGuide" target="_blank">GitHub</a>
+                                <a href="https://stoic-heisenberg-80e1ff.netlify.app/" target="_blank">Website</a>
+                            </div>
+                        </div>
+
                     </div>
                 </Animator>
             </ScrollPage>

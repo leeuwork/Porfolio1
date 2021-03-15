@@ -7,7 +7,7 @@
 .project-container {
     border: 1px solid rgb(8, 8, 8);
     width: 800px;
-    height: 630px;
+    height: 650px;
     border-radius: 10px;
     margin: 20px;
     display: flex;
@@ -46,6 +46,7 @@
     border: 1px solid black;
     padding: 8px;
     border-radius: 20px;
+    font-size: 15px;
 }
 
 #project-skills h5:hover {

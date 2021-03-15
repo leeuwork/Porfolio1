@@ -49,7 +49,7 @@ function Home() {
                 <Skills />
                 <Projects />
 
-                <ScrollPage page={13}>
+                <ScrollPage page={14}>
                     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
                         <span style={{ fontSize: "3em" }}>contact me</span>
                     </Animator>
